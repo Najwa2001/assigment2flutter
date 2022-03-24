@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class draweer extends StatelessWidget {
+  String title;
+
+
+ draweer({required this.title});
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return ListTile(
+      title: Text(title),
+  
+    );
+  }
